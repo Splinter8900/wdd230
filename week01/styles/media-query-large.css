@@ -1,0 +1,31 @@
+@media only screen and (min-width: 500px) {
+    main, footer{
+        max-width: 640px;
+        margin: 1rem auto;
+        font-family: 'Roboto';
+        border: 1px solid grey;
+        padding: 10px;
+        background-color: rgb(201, 229, 240);
+    }
+    header {
+        max-width: 640px;
+        margin: 1rem auto;
+        font-family: 'Roboto';
+        border: 1px solid grey;
+        padding: 10px;
+        background-color: black;
+        color: white;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+    section {
+        background-color: white;
+        padding: 10px;
+        margin: 15px;
+    
+    }
+}
